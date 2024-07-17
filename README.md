@@ -1,6 +1,8 @@
 # Deep-learning-for-Earthquake-Magnitude-and-Depth-Prediction-
 The project aims to predict earthquake magnitudes and depths using deep learning techniques, specifically neural networks and LSTM models.
 
+The Dataset is Procured from https://www.kaggle.com/datasets/usgs/earthquake-database/data
+
 Research Question: How do different neural networks and LSTM models perform in predicting earthquake magnitudes and depths considering input variables such as Latitude, Longitude, Depth and Magnitude?
 
 Description of the Dataset: The output variable, or the target variable, is "Magnitude and Depth". Magnitude is a continuous variable typically ranging from 0 to 10 on the Richter scale, representing the energy released by an earthquake. Depth is also a continuous variable, indicating the distance from the Earth's surface to the hypocenter of the earthquake. It varies from shallow depths, typically less than 70 km, to deep depths, reaching several hundred kilometers. The input to the deep learning model consists of latitude and longitude coordinates, which are continuous variables representing the geographic location of an earthquake event. Latitude ranges from -90° to 90°, where negative values denote the Southern Hemisphere and positive values denote the Northern Hemisphere.
